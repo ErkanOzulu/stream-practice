@@ -116,7 +116,6 @@ public class Practice {
 
     // Display the region of the IT department
     public static Region getRegionOfITDepartment() throws Exception {
-        //TODO Implement the method
         return new Region();
     }
 
