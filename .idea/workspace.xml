@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dab9a05-265e-4437-b068-08424aad28f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/StreamPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/StreamPracticeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/model/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/model/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/model/JobHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/model/JobHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/model/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/model/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/model/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/model/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/practice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/practice/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/CountryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/CountryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/CrudService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/JobHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/JobHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/JobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/LocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/LocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/RegionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/RegionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/impl/CountryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/impl/CountryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/impl/CrudServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/impl/CrudServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/impl/JobHistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/impl/JobHistoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/impl/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/impl/JobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/impl/LocationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/impl/LocationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/streampractice/service/impl/RegionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/streampractice/service/impl/RegionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/streampractice/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myCompany/streampractice/PracticeTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2U74jF1fPx7T4cYOsscbC94l0HI" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.5303738",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.PracticeTest.shouldGetAllEmployees">
+    <configuration name="PracticeTest.shouldGetAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stream-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myCompany.streampractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.streampractice" />
+      <option name="MAIN_CLASS_NAME" value="com.myCompany.streampractice.PracticeTest" />
+      <option name="METHOD_NAME" value="shouldGetAllEmployees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeTest.shouldGetAllJobs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stream-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myCompany.streampractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myCompany.streampractice" />
+      <option name="MAIN_CLASS_NAME" value="com.myCompany.streampractice.PracticeTest" />
+      <option name="METHOD_NAME" value="shouldGetAllJobs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-practice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.myCompany.streampractice.StreamPracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PracticeTest.shouldGetAllEmployees" />
+        <item itemvalue="JUnit.PracticeTest.shouldGetAllJobs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dab9a05-265e-4437-b068-08424aad28f8" name="Changes" comment="" />
+      <created>1692277422395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692277422395</updated>
+      <workItem from="1692277424400" duration="808000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
