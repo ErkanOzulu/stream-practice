@@ -83,8 +83,13 @@ public class Practice {
 
     // Display all the employees' first names
     public static List<String> getAllEmployeesFirstName() {
-        return employeeService.readAll().stream()
-                .map(e -> e.getFirstName()).collect(Collectors.toList());
+//        return employeeService.readAll().stream()
+//                .map(e -> e.getFirstName()).collect(Collectors.toList());
+        return getAllEmployees().stream()
+                .map(Employee::getFirstName)
+                .collect(Collectors.toList());
+
+
     }
 
     // Display all the countries' names
@@ -96,6 +101,11 @@ public class Practice {
 
     // Display all the departments' managers' first names
     public static List<String> getAllDepartmentManagerFirstNames() {
+
+        //        return getAllDepartments().stream()
+//                .map(Department::getManager)
+//                .map(Employee::getFirstName)
+//                .collect(Collectors.toList());
 
         return departmentService.readAll().stream().map(d -> d.getManager().getFirstName())
                 .collect(Collectors.toList());
@@ -111,17 +121,32 @@ public class Practice {
 
     // Display all the departments where postal code of the location of the department is '98199'
     public static List<Department> getAllDepartmentsWhereLocationPostalCodeIs98199() {
-        return departmentService.readAll().stream()
+//        return departmentService.readAll().stream()
+//                .filter(d -> d.getLocation().getPostalCode().equals("98199"))
+//                .collect(Collectors.toList());
+        return getAllDepartments().stream()
                 .filter(d -> d.getLocation().getPostalCode().equals("98199"))
                 .collect(Collectors.toList());
+
     }
 
     // Display the region of the IT department
     public static Region getRegionOfITDepartment() throws Exception {
-        return departmentService.readAll().stream()
-                .filter(d -> d.getDepartmentName() == "IT")
+//        return departmentService.readAll().stream()
+//                .filter(d -> d.getDepartmentName().equals("IT"))
+//                .map(d -> d.getLocation().getCountry().getRegion())
+//                .findAny().get();
+
+//        return getAllDepartments().stream()
+//                .filter(d -> d.getDepartmentName().equals("IT"))
+//                .findFirst().orElseThrow(() -> new Exception("Department not found!"))
+//                .getLocation().getCountry().getRegion();
+
+
+        return getAllDepartments().stream()
+                .filter(d -> d.getDepartmentName().equals("IT"))
                 .map(d -> d.getLocation().getCountry().getRegion())
-                .findAny().get();
+                .findFirst().orElseThrow(() -> new Exception("Department not found!"));
     }
 
     // Display all the departments where the region of department is 'Europe'
@@ -134,6 +159,15 @@ public class Practice {
     // Display if there is any employee with salary less than 1000. If there is none, the method should return true
     public static boolean checkIfThereIsNoSalaryLessThan1000() {
 
+        //        return getAllEmployees().stream()
+        //                .allMatch(employee -> employee.getSalary() >= 1000);
+
+        //        return !getAllEmployees().stream()
+        //                .anyMatch(employee -> employee.getSalary() < 1000);
+
+        //        return getAllEmployees().stream()
+        //                .filter(employee -> employee.getSalary() < 1000)
+        //                .findAny().isEmpty();
         return employeeService.readAll().stream()
                 .noneMatch(e -> e.getSalary() < 1000);
 
@@ -164,6 +198,13 @@ public class Practice {
 
     // Display the salary of the employee Grant Douglas (lastName: Grant, firstName: Douglas)
     public static Long getGrantDouglasSalary() throws Exception {
+
+//        return getAllEmployees().stream()
+//                .filter(employee -> employee.getFirstName().equals("Douglas"))
+//                .filter(employee -> employee.getLastName().equals("Grant"))
+//                .findFirst().orElseThrow(() -> new Exception("No employee found!"))
+//                .getSalary();
+
 
         return employeeService.readAll().stream()
                 .filter(e -> e.getFirstName().equals("Douglas") && e.getLastName().equals("Grant"))
